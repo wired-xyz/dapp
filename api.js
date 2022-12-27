@@ -44,6 +44,8 @@ export const getFollowing = gql`
       items {
         profile {
           id
+          name
+          handle
         }
       }
     }
